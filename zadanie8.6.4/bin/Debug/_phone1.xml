@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<PhoneBook xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FIO>Куршнев</FIO>
+  <Street>Лукьяненко</Street>
+  <HouseNumber>10</HouseNumber>
+  <FlatNumber>31</FlatNumber>
+  <MobilePhone>906436</MobilePhone>
+  <FlatPhone>4537</FlatPhone>
+</PhoneBook>
