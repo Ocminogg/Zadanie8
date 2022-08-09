@@ -36,6 +36,11 @@ namespace zadanie8._6._2
                 if (PhoneBook.TryGetValue(Phone,out FIO) == true)
                 {
                     Console.WriteLine($"Найденный контакт: {FIO}");
+                    Console.WriteLine();
+                    Console.WriteLine("Чтобы искать другой нажмите 1!");
+                    string con = Console.ReadLine();
+                    if (con == "1") continue;
+                    else break;
                 }
                 else
                 {
