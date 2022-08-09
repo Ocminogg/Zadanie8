@@ -1,0 +1,8 @@
+D:\Skilbox C#\zadanie8\Zadanie8\zadanie8.6.2\bin\Debug\zadanie8.6.2.exe.config
+D:\Skilbox C#\zadanie8\Zadanie8\zadanie8.6.2\bin\Debug\zadanie8.6.2.exe
+D:\Skilbox C#\zadanie8\Zadanie8\zadanie8.6.2\bin\Debug\zadanie8.6.2.pdb
+D:\Skilbox C#\zadanie8\Zadanie8\zadanie8.6.2\obj\Debug\zadanie8.6.2.csproj.AssemblyReference.cache
+D:\Skilbox C#\zadanie8\Zadanie8\zadanie8.6.2\obj\Debug\zadanie8.6.2.csproj.SuggestedBindingRedirects.cache
+D:\Skilbox C#\zadanie8\Zadanie8\zadanie8.6.2\obj\Debug\zadanie8.6.2.csproj.CoreCompileInputs.cache
+D:\Skilbox C#\zadanie8\Zadanie8\zadanie8.6.2\obj\Debug\zadanie8.6.2.exe
+D:\Skilbox C#\zadanie8\Zadanie8\zadanie8.6.2\obj\Debug\zadanie8.6.2.pdb
