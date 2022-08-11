@@ -35,12 +35,7 @@ namespace zadanie8._6._4
             myFlatPhone.Add(СoncretePhoneBook.FlatPhone);
 
             XAttribute name = new XAttribute("name", СoncretePhoneBook.FIO);
-            //XAttribute street = new XAttribute("street", СoncretePhoneBook.Street);
-            //XAttribute houseNumber = new XAttribute("houseNumber", СoncretePhoneBook.HouseNumber);
-            //XAttribute flatNumber = new XAttribute("flatNumber", СoncretePhoneBook.FlatNumber);
-            //XAttribute mobilePhone = new XAttribute("mobilePhone", СoncretePhoneBook.MobilePhone);
-            //XAttribute flatPhone = new XAttribute("flatPhone", СoncretePhoneBook.FlatPhone);
-
+            
             myAddress.Add(myStreet, myHouseNumber, myFlatNumber);
             myPhones.Add(myMobilePhone, myFlatPhone);
             myPerson.Add(myAddress, myPhones, name);
