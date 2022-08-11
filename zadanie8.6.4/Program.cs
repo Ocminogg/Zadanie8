@@ -81,16 +81,14 @@ namespace zadanie8._6._4
             //// Возвращаем результат
             //return tempPhoneBook;
 
-            string xml = System.IO.File.ReadAllText(Path);
+            string xml = System.IO.File.ReadAllText("_phone1.xml");
 
             var col = XDocument.Parse(xml)
-                                .Descendants("Person")
-                                .Descendants("Address")
-                                .Descendants("Phones")
+                                .Descendants("Person")                                
                                 .ToList();
             foreach (var item in col)
             {
-                Console.WriteLine($"\n\n{item}");
+                Console.WriteLine($"{item}");
             }
 
         }
@@ -123,17 +121,7 @@ namespace zadanie8._6._4
             //phoneBook = DeserializePhoneBook("_phone1.xml");
             //Console.WriteLine(phoneBook.Print());
             //DeserializePhoneBook("_phone1.xml");
-            string xml = System.IO.File.ReadAllText("_phone1.xml");
-
-            var col = XDocument.Parse(xml)
-                                .Descendants("Person")
-                                //.Descendants("Address")
-                                //.Descendants("Phones")
-                                .ToList();
-            foreach (var item in col)
-            {
-                Console.WriteLine($"{item}");
-            }
+            DeserializePhoneBook("_phone1.xml");
 
             Console.ReadKey();
             #endregion
